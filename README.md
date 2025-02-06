@@ -65,8 +65,6 @@ streamlit run app.py
 ```
 This will start the Streamlit web application, allowing you to upload an image of a potato leaf and receive a prediction.
 
-   This will start the web application, allowing you to upload an image of a potato leaf and receive a prediction.
-
 2. **Prediction**  
    Once the app is running, visit `http://127.0.0.1:5000/` in your browser. You can upload potato leaf images to get disease predictions.
 
