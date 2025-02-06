@@ -60,7 +60,6 @@ The dataset used in this project contains images of potato leaves affected by va
    To serve the model through a web app, use the following command to run the app:
 
 ```bash
-Copy
 streamlit run app.py
 ```
 This will start the Streamlit web application, allowing you to upload an image of a potato leaf and receive a prediction.
