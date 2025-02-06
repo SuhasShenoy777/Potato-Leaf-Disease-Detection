@@ -57,7 +57,7 @@ The dataset used in this project contains images of potato leaves affected by va
 ## **Usage**
 
 1. **Running the Streamlit Web App**
-To serve the model through a web app, use the following command to run the app:
+   To serve the model through a web app, use the following command to run the app:
 
 ```bash
 Copy
