@@ -19,7 +19,7 @@ This project aims to automatically detect diseases in potato leaves using deep l
 
 - **Python**: Programming language for developing the project.
 - **TensorFlow/Keras**: Deep learning framework for building the disease detection model.
-- **Flask**: Web framework used in the `app.py` file to serve the model for inference.
+- **Streamlit**: Web framework used to create a user-friendly interface for the app.
 - **OpenCV**: For image processing and augmentation.
 - **Matplotlib/Seaborn**: For visualizing training metrics.
 - **Pandas/Numpy**: For data manipulation.
@@ -28,19 +28,13 @@ This project aims to automatically detect diseases in potato leaves using deep l
 
 Follow these steps to set up the project on your local machine:
 
-1. **Clone the Repository**  
-   Clone this repository using Git:
-   ```bash
-   git clone https://github.com/VedantBende/potato-leaf-disease-detection.git
-   ```
-
-2. **Create a Virtual Environment**  
+1. **Create a Virtual Environment**  
    It's recommended to create a virtual environment:
    ```bash
    python -m venv env
    ```
 
-3. **Activate the Virtual Environment**  
+2. **Activate the Virtual Environment**  
    On Windows:
    ```bash
    .\env\Scripts\activate
@@ -50,7 +44,7 @@ Follow these steps to set up the project on your local machine:
    source env/bin/activate
    ```
 
-4. **Install Dependencies**  
+3. **Install Dependencies**  
    Install the required dependencies by running:
    ```bash
    pip install -r requirements.txt
@@ -62,11 +56,14 @@ The dataset used in this project contains images of potato leaves affected by va
 
 ## **Usage**
 
-1. **Running the Flask Web App**  
-   To serve the model through a web app, use the following command to run `app.py`:
-   ```bash
-   python app.py
-   ```
+1. **Running the Streamlit Web App**
+To serve the model through a web app, use the following command to run the app:
+
+```bash
+Copy
+streamlit run app.py
+```
+This will start the Streamlit web application, allowing you to upload an image of a potato leaf and receive a prediction.
 
    This will start the web application, allowing you to upload an image of a potato leaf and receive a prediction.
 
